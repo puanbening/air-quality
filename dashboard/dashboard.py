@@ -43,9 +43,8 @@ def dashboard():
     ax.set_ylabel("Rata-rata Suhu (°C)", fontsize=9)
     ax.tick_params(axis='x', labelsize=9)
 
-    # Mengatur ticks untuk sumbu x agar hanya menampilkan tahun yang unik
-    ax.set_xticks(temp_yearly['Tahun'])  # Menetapkan ticks sumbu x ke tahun yang unik
-
+  
+    ax.set_xticks(temp_yearly['Tahun'])  
     ax.tick_params(axis='y', labelsize=9)
     plt.tight_layout()
     st.pyplot(fig)
@@ -74,9 +73,7 @@ def dashboard():
     ax.set_ylabel("Kadar Polutan", fontsize=9)
     ax.legend(title="Polutan", fontsize=9)
 
-    # Mengatur ticks untuk sumbu x agar hanya menampilkan tahun yang unik
     ax.set_xticks(pollutant_yearly['Tahun'])
-
     ax.tick_params(axis='x', labelsize=9)
     ax.tick_params(axis='y', labelsize=9)
     plt.tight_layout()
