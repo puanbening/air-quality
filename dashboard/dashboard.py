@@ -6,7 +6,7 @@ import streamlit as st
 
 # Fungsi untuk memuat data
 def load_data():
-    wanliu_df = pd.read_csv(r"C:\Users\acer\Downloads\submission\dashboard\Air-quality-dataset\PRSA_Data_20130301-20170228\PRSA_Data_Wanliu_20130301-20170228.csv")
+    wanliu_df = pd.read_csv(r"https://raw.githubusercontent.com/puanbening/airquality/main/dashboard/Air-quality-dataset/PRSA_Data_20130301-20170228/PRSA_Data_Wanliu_20130301-20170228.csv")
     return wanliu_df
 
 # Fungsi utama untuk dashboard
