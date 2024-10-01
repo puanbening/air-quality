@@ -1,6 +1,6 @@
-# Wanliu Station | Air Quality Dashboard ☁️
+# Wanliu Station - Air Quality Dashboard ☁️
 
-## Setup Environment - Shell/Terminal
+## Setup Environment Shell/Terminal
 ```
 mkdir submission_dashboard
 cd submission_dashboard
