@@ -1,4 +1,4 @@
-# Wanliu Station - Air Quality Dashboard ☁️
+# Wanliu Station | Air Quality Dashboard ☁️
 
 ## Setup Environment - Shell/Terminal
 ```
